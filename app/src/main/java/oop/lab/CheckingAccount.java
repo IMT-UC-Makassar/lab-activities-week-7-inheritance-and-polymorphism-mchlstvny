@@ -7,7 +7,7 @@ public class CheckingAccount extends BankAccount implements OnlineService {
 
     @Override
     public void calculateInterest() {
-        // Checking accounts do not earn interest
+       
     }
 
     @Override
