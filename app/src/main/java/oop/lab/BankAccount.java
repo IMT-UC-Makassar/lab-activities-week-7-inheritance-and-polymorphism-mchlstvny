@@ -28,8 +28,7 @@ public abstract class BankAccount {
     public abstract void calculateInterest();
 
     public void transferFunds(double amount, String targetAccountNumber) {
-        withdraw(amount); // simple version
-        // Normally you'd interact with another account here
+        withdraw(amount); 
     }
 
     public void payBills(double amount) {

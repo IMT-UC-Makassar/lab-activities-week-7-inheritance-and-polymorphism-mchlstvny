@@ -5,7 +5,6 @@ public class DebitCard extends Card {
         super(cardNumber, cardHolder);
     }
 
-    @Override
     public double getInterestRate() {
         return 0.0;
     }
