@@ -9,5 +9,6 @@ public abstract class Card {
         this.cardHolder = cardHolder;
     }
 
+    @Override
     public abstract double getInterestRate ();
 }

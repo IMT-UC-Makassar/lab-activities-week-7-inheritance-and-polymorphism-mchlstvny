@@ -2,7 +2,7 @@ package oop.lab;
 
 public class SavingsAccount extends BankAccount implements OnlineService {
     public SavingsAccount(String accountNumber, String accountHolder, double amount) {
-        super(accountNumber, accountHolder, balance);
+        super(accountNumber, accountHolder, amount);
     }
     
     @Override
@@ -13,7 +13,6 @@ public class SavingsAccount extends BankAccount implements OnlineService {
 
     @Override
     public void transferFunds(double amount, String targetAccountNumber) {
-
+        super.transferFunds(amount, targetAccountNumber); 
     }
-
 }
